@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+#logo
+{
+    display: block;
+    width: 100%;
+    border-color: rgb(190, 185, 185);
+    border-style: none none solid none;
+    border-width: thin;
+    font-size: 30px;
+    font-weight: bold;
+}
+#logoimg
+{
+    width: 80px;
+    height: 70px;
+    margin-right: 10px;
+}
+.navbar
+{
+    background-color: #e3f2fd;
+    font-size: 20px;
+    font-family: serif;
+}
+.navbar-nav > li > a:hover
+{
+    /* background-color: #86befa; */
+    border-radius: 10px;
+}
+.nav-item
+{
+    margin-left: 10px;
+}
+#fontcolor:hover
+{
+    color:rgb(242, 102, 93);
+}
+
+main
+{
+    height: 1250px;
+}
+.parallex1
+{
+    height: 400px;
+    background-image: url(../images/parallexbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+   
+}
+#title
+{
+    padding-top: 7%;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: serif;
+}
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+.col-md-4, .col-sm-6
+{
+    padding: 0;
+}
+.img-fluid
+{
+    width: 100%;
+    height: 100%;
+}
+.mycss-images
+{
+    margin-bottom: -20px;
+}
+.parallex2
+{
+    height: 400px;
+    background-image: url(../images/parallexbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+figcaption {
+    background: rgba(255, 255, 255, 0.6);
+    font-family: serif;
+    text-align: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    bottom: 15px;
+    position: absolute;
+    padding-top: 10%;
+    color: black;
+    font-weight: bold;
+    visibility: hidden;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+figure:hover > figcaption 
+{
+    visibility:visible;
+}
+
+.readmore
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    font-family: serif;
+    text-decoration: none;
+    color: black;  
+}
+.readmore:hover
+{
+    color: white;
+    border-color: white;
+    font-family: serif;
+    text-decoration: none;
+    background-color: #474a4c;
+}
+@media (max-width: 576px)
+{
+    .h1title
+    {
+        font-size:20px;
+    }
+    
+}
+@media (min-width: 576px)
+{
+    .h1title
+    {
+        font-size:16px;
+    }
+}
+@media (min-width: 768px)
+{
+    .h1title
+    {
+        font-size:13px;
+    }
+}
+@media (min-width: 800px)
+{
+    .h1title
+    {
+        font-size:15px;
+    }
+}
+@media (min-width: 1050px)
+{
+    .h1title
+    {
+        font-size:20px;
+    }
+}
+@media (min-width: 1330px)
+{
+    .h1title
+    {
+        font-size:25px;
+    }
+}
+@media (min-width: 1550px)
+{
+    .h1title
+    {
+        font-size:30px;
+    }
+}
+.container-fluid
+{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+}
+.homevideos
+{
+    width: 100%;
+    height: 100%;
+}
+#row2
+{
+    height: 150%;
+}
+.card
+{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-color: #e3f2fd;
+    text-align: center;
+    color: black;
+}
+.parallex3
+{   
+    height: 200px;   
+    background-position-y: -120px;
+    background-image: url(../images/parallexbg3.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    padding-top:30px;
+    letter-spacing: 2px;
+}
+.titleclass
+{
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+@media (max-width:762px)
+{
+    .parallex3
+    {
+        padding-top:130px;
+    }
+    #machinecontainer
+    {
+        margin-top: -100px;
+    }
+}
+#subtitle2
+{
+    position: relative;
+    font-family: serif;
+    margin-top: 20px;
+}
+.firstrowimg
+{
+    margin-left: -8px;
+}
+#machinerow1
+{
+    position: relative;
+    margin-top: 190px;
+}
+.machineimages
+{
+    height: 300px;
+    position: relative;
+    margin: 10px;
+    border: #474a4c solid 2px;
+}
+.machinefont
+{
+    font-size: 25px;
+}
+.machinefigcaption
+{
+    background: rgba(255, 255, 255, 0.8);
+    font-family: serif;
+    text-align: center;
+    top: 10px;
+    right: 0px;
+    left: 20px;
+    bottom: 0px;
+    position: absolute;
+    padding-top: 10%;
+    color: black;
+    font-weight: bold;
+    visibility: hidden;
+}
+.googlesas
+{
+     margin-top: -60px;
+}
+@media (max-width:768px)
+{
+    .googlesas
+    {
+         margin-top: -0px;
+    }
+}
+#machinevideoframe
+{
+    height: 400px;
+    margin-left: 10px;
+}
+#machinevideo
+{
+    width: 100%;
+    height: 100%;
+}
+.parallex4
+{
+    height: 400px;   
+    background-image: url(../images/Datavisualbg1.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top:30px;
+    font-family: serif;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+.parallex4 > .titleclass
+{
+    text-shadow: rgb(134, 128, 128) 2px 2px 2px;
+    margin-bottom: 30px;
+}
+#datavisualtitle1
+{
+    margin-top: 80px;
+    font-weight: bold;
+}
+#select_text
+{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#select_file
+{
+    border-radius: 5px;
+}
+.parallex5
+{
+    height: 400px;   
+    background-image: url(../images/Worldmapbg.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top:30px;
+    letter-spacing: 2px;
+    color: white;
+}
+#worldmaptitle
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+#googleMap
+{
+    width: 100%;
+    height: 500px;
+}
+#worldmapvideos
+{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#worldmapvideo
+{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#worldmapfooter
+{
+    margin-top: -8px;
+    padding-top: 0;
+}
+.parallex6
+{
+    background-position-y: -150px;
+    height: 400px;   
+    background-image: url(../images/Aboutbg.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: -20px;
+    padding-top:0px;
+    letter-spacing: 2px;
+    color: black;
+}
+#contacttitle1
+{
+    font-size: 60px;
+    padding-top: 150px;
+    font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+
+#contactcontent
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.abouttitle
+{
+    font-family: Aldrich, sans-serif;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 142, 230) 2px 2px 2px;
+}
+.col-md-6
+{
+    width: 100%;
+    
+}
+#buttonsend
+{
+    color: white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.contactlabels
+{
+    float: left;
+}
+#contactlogoimg
+{
+    width: 80px;
+    height: 70px;
+    margin-right: 10px;
+}

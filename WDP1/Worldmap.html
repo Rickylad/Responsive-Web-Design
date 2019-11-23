@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/MyCSS.css">
+    <title>World Map</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" role="navigation">
+        <a href="index.html" title="Data Science" class="navbar-brand"><img id="logoimg" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav side">
+                <li class="nav-item active"><a class="nav-link" id="fontcolor" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="MachineLearning.html">Machine Learning</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="Datavisual.html">Data Visualisation</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="Worldmap.html">World Map</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="ContactAbout.html">Contact & About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallex5">
+        <h1 class="titleclass" id="worldmaptitle">World Map</h1>
+        <h2 class="titleclass">Enhance Your Wiew</h2>
+    </div>
+    <div id="googleMap"></div>
+    <div class="row">
+        <div class="col-md-12" id="worldmapvideos">
+            <iframe id="worldmapvideo" src="https://www.youtube.com/embed/8o44asJt8ZA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+                
+        </div>
+    </div>
+   
+    <footer id="worldmapfooter" class="page-footer font-small blue card">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: u3191278<br>
+            Image by <a
+                href="https://pixabay.com/users/14398-14398/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=140304">Epic
+                Images</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=140304">Pixabay</a>
+        </div>
+
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAqvKLdU-11SG2UPwPw0GVoZvzI4RVrX3w"></script>
+    <script src="js/worldmap.js"></script>
+</body>
+
+</html>

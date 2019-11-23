@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4cad0fbaff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/MyCSS.css">
+    <title>Contact and About</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" id="contactNavbar" role="navigation">
+        <a href="index.html" title="Data Science" class="navbar-brand"><img id="contactlogoimg" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav side" id="contactul">
+                <li class="nav-item active"><a class="nav-link" id="fontcolor" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="MachineLearning.html">Machine Learning</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="Datavisual.html">Data Visualisation</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="Worldmap.html">World Map</a></li>
+                <li class="nav-item"><a class="nav-link" id="fontcolor" href="ContactAbout.html">Contact & About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallex6">
+        <h1 class="titleclass" id="contacttitle1">About us</h1>
+        <h2 class="titleclass">Contact us</h2>
+    </div>
+    <div class="container" id="contactcontent">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header abouttitle">About this Website</div>
+                    <div class="card-body">This website is developed by Ricky Liu for unit Web Design and Programming.
+                        University of Canberra.
+                    </div>
+                </div>
+                <p class="abouttitle"></p>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header abouttitle">Copyright</div>
+                    <div class="card-body">© 2019 Copyright: u3191278. All the images and text have been cited at the
+                        bottom of each web page.</div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 15px">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header abouttitle">Contact us</div>
+                    <div class="row" style="margin-top: 10px">
+                        <div class="col-md-4">
+                                <i class="fas fa-school"></i>
+                            <p>Bruce ACT 2617, University of Canberra</p>
+                        </div>
+                        <div class="col-md-4">
+                                <i class="fas fa-phone-square-alt"></i>
+                            <p>+ 01 234 567 89</p>
+                        </div>
+                        <div class="col-md-4">
+                                <i class="fas fa-envelope"></i>
+                            <p>u3191278@uni.canberra.edu.au</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue card">
+
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: u3191278<br>
+            Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3417750">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3417750">Pixabay</a>
+        </div>
+
+    </footer>
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            if (name == "") {
+                document.getElementById('status').innerHTML = "Name cannot be empty";
+                return false;
+            }
+            var email = document.getElementById('email').value;
+            if (email == "") {
+                document.getElementById('status').innerHTML = "Email cannot be empty";
+                return false;
+            } else {
+                var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                if (!re.test(email)) {
+                    document.getElementById('status').innerHTML = "Email format invalid";
+                    return false;
+                }
+            }
+            var subject = document.getElementById('subject').value;
+            if (subject == "") {
+                document.getElementById('status').innerHTML = "Subject cannot be empty";
+                return false;
+            }
+            var message = document.getElementById('message').value;
+            if (message == "") {
+                document.getElementById('status').innerHTML = "Message cannot be empty";
+                return false;
+            }
+            document.getElementById('status').innerHTML = "Sending...";
+            document.getElementById('contact-form').submit();
+
+        }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+</body>
+</html>
